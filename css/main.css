@@ -20,7 +20,7 @@ header{
 	padding:1em 0;
 	margin: 0;
 }
-.masthead{
+/*.masthead{
 	background-image:url("../images/logo.png"),url("../images/pattern.png");
 	background-repeat: no-repeat,repeat, repeat;
 	background-size: 75px auto,75px auto,200px auto;
@@ -28,10 +28,7 @@ header{
 	background-position: left top, right top, left top;
 	margin: 0;
 }
-
-body{
-
-}
+*/
 
 header {
 background-image: url("../images/logo.png"), url("../images/logo.png");
@@ -43,7 +40,7 @@ display: block;
 position: relative;
 }
 
-/*.nav a {
+.nav a {
 	display: block;
 	padding: 0.5em 0.7;
 	text-decoration: none;
@@ -106,21 +103,20 @@ nav-checked:checked ~ .nav-lable .nav-close{
 }*/
 
 ul {
-	
+	margin:0;
 	font-size: 27px;
 	color:#183E4E;
 	text-align: center;
 	font-family:'Josefin Sans', sans-serif;
-
 }
 
 h1{
 	margin: 0;
+	text-align: center;
 	color:white;
 	font-family:'Josefin Sans', sans-serif;
 	font-weight: bold;
 	font-size: 42px;
-	text-align: center;
 	text-shadow: 4px 4px 4px black;
 	bottom: 5%;
 	position: absolute;
@@ -128,10 +124,11 @@ h1{
 	
 }
 
-/*.nav {
+.nav {
 	margin: 0;
 	list-style-type: none; 
 	padding: 0;
+	text-align: center;
 
 }
 
@@ -151,7 +148,7 @@ h1{
 
 .nav a:hover {
 	background-color: #183E4E;
-}*/
+}
 
 .pattern {
 	width: 100%;
