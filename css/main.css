@@ -7,22 +7,38 @@ html{
 	background-size: 150px auto;
 	color:white;
 }
-
+body{
+	margin:0;
+	display: block;
+}
 header{
 background-image: url("../images/logo.png"), url("../images/logo.png");
 background-position: left 15px, auto;
 background-repeat: no-repeat;
 background-size: 80px auto;
-padding: 1em;
+padding: 1em 0 40px;
 display: block;
+position: relative;
 }
-
+.nav a{
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	color: #fff;
+}
+.nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
 .nav{
 	margin: 0;
 	padding: 0;
 	list-style-type:none;
 	background-image: url("../images/pattern.png");
-	display:none;}
+	display:none;
+	position: absolute;
+	width:15 em;
+}
 
 .nav-check{
 	position: absolute;
@@ -34,6 +50,9 @@ display: block;
 	font-size: 1.25rem;
 	width:4o px;
 	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom:0;
 }
 
  .nav-check:checked ~ .nav {
@@ -43,9 +62,19 @@ display: block;
 .nav-check:checked ~ .nav-lable{
 background-color: #ccc;
 }
-.nav-lable img{
+.nav-open,
+nav-close{
 	display: block;
 	width:100%;
+}
+.nav-close{
+	display: none; 
+}
+.nav-checked:checked ~ .nav-lable .nav-open{
+	display:none;
+}
+nav-checked:checked ~ .nav-lable .nav-close{
+	display:block;
 }
 body{
 	font-family: 'Josefin Slab', serif; 
@@ -84,8 +113,8 @@ h1{
 	font-weight: bold;
 	font-size: 42px;
 	text-align: center;
-	position: center;
-	text-shadow: 4px 4px 4px #183E4E;
+	position: relative;
+	text-shadow: 4px 4px 4px black;
 	bottom: 5%;
 	position: absolute;
 }
@@ -93,12 +122,14 @@ h2{
 	color:white;
 	font-family:'Josefin Sans', sans-serif;
 	font-size: 42px;
-	color: white;
 	text-align: center;
+	color: white;
+	text-shadow: 4px 4px 4px #183E4E;
 	margin: 0;
+	position: relative;
 }
 .menu h2{
-	text-shadow: 4px 4px 4px #183E4E;
+	
 	padding: 1em;
 }
 
