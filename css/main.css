@@ -4,7 +4,7 @@
 
 html{
 
-	font-family:'Josefin Sans', sans-serif;
+	font-family:normal 100%/'Josefin Sans', sans-serif;
 	background-size: 150px auto;
 	color:white;
 }
@@ -14,6 +14,14 @@ body{
 	display: block;
 }
 header{
+	background-color: #AE2525;
+	repeat:no no-repeat;
+	padding:1em 0;
+}
+body{
+
+}
+/*header{
 background-image: url("../images/logo.png"), url("../images/logo.png");
 background-position: left 15px, auto;
 background-repeat: no-repeat;
@@ -81,10 +89,50 @@ nav-close{
 nav-checked:checked ~ .nav-lable .nav-close{
 	display:block;
 }
-body{
-	font-family: 'Josefin Slab', serif; 
-}
 
+ul{
+	
+	font-size: 27px;
+	color:#183E4E;
+	text-align: center;
+	font-family:'Josefin Sans', sans-serif;
+
+}*/
+
+h1{
+	margin: 0;
+	color:white;
+	font-family:'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+	position: relative;
+	text-shadow: 4px 4px 4px black;
+	bottom: 5%;
+	position: absolute;
+	
+}
+.nav{
+	margin: 0;
+	list-style-type:none; 
+	text-align: center;
+	padding:0;
+
+}
+.nav li{
+	display:inline-block;
+}
+.nav a{
+	color: #FFCC99;
+	display: inline-block;
+	padding:1em 2em 1em 2em;
+	background-color: #183E4E;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.nav a:hover{
+	background-color: black;
+}
 .pattern{
 	width: 100%;
 }
@@ -102,28 +150,7 @@ img{
 
 	}
 
-ul{
-	
-	font-size: 27px;
-	color:#183E4E;
-	text-align: center;
-	font-family:'Josefin Sans', sans-serif;
 
-}
-
-
-h1{
-	color:white;
-	font-family:'Josefin Sans', sans-serif;
-	font-weight: bold;
-	font-size: 42px;
-	text-align: center;
-	position: relative;
-	text-shadow: 4px 4px 4px black;
-	bottom: 5%;
-	position: absolute;
-	margin: 0;
-}
 h2{
 	color:white;
 	font-family:'Josefin Sans', sans-serif;
@@ -241,12 +268,13 @@ footer{
 	background-color: #FFCC99;
 	display: block;
 	font-size: 18px;
+	text-decoration: none;
 
 }
 
 
 .back-to-top:hover {    
-    background-color: rgba(135, 135, 135, 0.50);
+    background-color: white;
 }
 
 
