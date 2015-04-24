@@ -3,11 +3,13 @@
 }
 
 html{
+
 	font-family:'Josefin Sans', sans-serif;
 	background-size: 150px auto;
 	color:white;
 }
 body{
+	font-family:'Josefin Sans', sans-serif;
 	margin:0;
 	display: block;
 }
@@ -22,7 +24,7 @@ position: relative;
 }
 .nav a{
 	display: block;
-	padding: 0.5em;
+	padding: 0.5em 0.7;
 	text-decoration: none;
 	color: #fff;
 }
@@ -32,12 +34,15 @@ position: relative;
 }
 .nav{
 	margin: 0;
-	padding: 0;
+	
 	list-style-type:none;
 	background-image: url("../images/pattern.png");
 	display:none;
 	position: absolute;
 	width:15 em;
+}
+.nav li{
+	display: inline-block;
 }
 
 .nav-check{
@@ -117,6 +122,7 @@ h1{
 	text-shadow: 4px 4px 4px black;
 	bottom: 5%;
 	position: absolute;
+	margin: 0;
 }
 h2{
 	color:white;
@@ -137,20 +143,16 @@ p{
 
 }
 .reviews, .silkroad {
-		color: #FFCC99;
+	color: #FFCC99;
 	background-color: #AE2525;
 	font-size:18px;
 	font-family:'Josefin Sans', sans-serif;
 	margin: 0;
-	padding: 3em;
+	padding: 1em;
 }
 
 .desserts{
 	width: 100%;
-}
-menu img{
-	width: 100%;
-
 }
 
 menu ol li{
@@ -168,6 +170,7 @@ li{
 
 
 .events{
+	font-family:'Josefin Sans', sans-serif;
 	margin: 1em;
 	color: #FFCC99;
 	background-color: #183E4E;
@@ -225,22 +228,26 @@ nav{
 
 }
 .map.jpg{
-	width:80%;
+	width:100%;
+	margin: 0em;
+	position: relative;
+
 
 }
-
-
 footer{
 	color: #183E4E;
 	text-align: center;
 	padding: 1em 1em 0.5em 1em;
 	background-color: #FFCC99;
+	display: block;
+	font-size: 18px;
 
 }
 
 
-
-
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
 
 
 
