@@ -18,6 +18,13 @@ header{
 	repeat:no no-repeat;
 	padding:1em 0;
 }
+.masthead{
+	background-image:url("../images/logo.png"),url("../images/logo.svg"),url("../images/masthead.png");
+	background-repeat: no-repeat,no-repeat, repeat;
+	background-size: 75px auto,75px auto,200px auto;
+	padding: 0.25em;
+	background-position: left top, right top, left top;
+}
 body{
 
 }
