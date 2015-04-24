@@ -1,0 +1,202 @@
+*, *::before, *::after{ 
+	box-sizing: inherit;
+}
+
+html{
+	font-family:'Josefin Sans', sans-serif;
+	background-size: 150px auto;
+	color:white;
+}
+
+header{
+background-image: url("../images/logo.png");
+background-position: left 15px, auto;
+background-repeat: no-repeat;
+background-size: 80px auto;
+padding: 1em;
+display: block;
+}
+
+.nav{display:none;}
+.nav-check:checked ~ .nav {
+
+display: block;
+}
+.nav-check{
+	position: absolute;
+	top: -3em;
+}
+ .nav-check:checked ~ .nav-label {
+	background-image:url("../images/pattern.png"); 
+}
+
+
+body{
+	font-family: 'Josefin Slab', serif; 
+}
+
+.pattern{
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+.kabob{
+	
+	background-image: url("../images/kabob.jpg");
+	text-shadow: 4px 4px 4px #183E4E;
+  	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.05));
+	repeat:no-repeat;
+	margin: 0em;
+	position: relative;
+
+	}
+
+ul{
+	
+	font-size: 27px;
+	color:#183E4E;
+	text-align: center;
+	font-family:'Josefin Sans', sans-serif;
+
+}
+
+
+h1{
+	color:white;
+	font-family:'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+	position: center;
+	text-shadow: 4px 4px 4px #183E4E;
+	bottom: 5%;
+	position: absolute;
+}
+h2{
+	color:white;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 42px;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
+.menu h2{
+	text-shadow: 4px 4px 4px #183E4E;
+	padding: 1em;
+}
+
+p{
+
+}
+.reviews, .silkroad {
+		color: #FFCC99;
+	background-color: #AE2525;
+	font-size:18px;
+	font-family:'Josefin Sans', sans-serif;
+	margin: 0;
+	padding: 3em;
+}
+
+.desserts{
+	width: 100%;
+}
+menu img{
+	width: 100%;
+
+}
+
+menu ol li{
+	width:80%;
+
+}
+
+
+li{
+	color:#183E4E;
+	font-family:'Josefin Sans', sans-serif;
+}
+
+
+
+
+.events{
+	margin: 1em;
+	color: #FFCC99;
+	background-color: #183E4E;
+	padding: 2em;
+	margin: 0em;
+}
+.buffet.jpg{
+	padding: 1em;
+}
+dt{
+	color:#FFCC99;
+}
+
+dl dt img{
+	width:50%;
+	float:right;
+	overflow:hidden;
+}
+
+dl dt{
+	overflow: hidden;
+}
+
+.buffet{
+	float: right;
+	width: 50%;
+}
+
+.dancing{
+	float: right;
+	width: 80%;
+}
+	
+
+.review{
+	color:white;
+
+
+}
+.reviews div p{
+	color:#FFCC99;
+	background-color:#AE2525;
+	font-family:'Josefin Sans', sans-serif;
+}
+
+nav{
+	color: #FFCC99;
+	font-family:'Josefin Sans', sans-serif;
+	margin: 0.5em, 0em, 0em,0.5em;
+	padding: 
+}
+.contact{
+	background-image: url("../images/pattern.png");
+	padding: 1em;
+
+}
+.map.jpg{
+	width:80%;
+
+}
+
+
+footer{
+	color: #183E4E;
+	text-align: center;
+	padding: 1em 1em 0.5em 1em;
+	background-color: #FFCC99;
+
+}
+
+
+
+
+
+
+
+
+
+
