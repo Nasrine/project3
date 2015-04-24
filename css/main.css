@@ -9,7 +9,7 @@ html{
 }
 
 header{
-background-image: url("../images/logo.png");
+background-image: url("../images/logo.png"), url("../images/logo.png");
 background-position: left 15px, auto;
 background-repeat: no-repeat;
 background-size: 80px auto;
@@ -17,20 +17,36 @@ padding: 1em;
 display: block;
 }
 
-.nav{display:none;}
-.nav-check:checked ~ .nav {
+.nav{
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+	background-image: url("../images/pattern.png");
+	display:none;}
 
-display: block;
-}
 .nav-check{
 	position: absolute;
 	top: -3em;
 }
- .nav-check:checked ~ .nav-label {
-	background-image:url("../images/pattern.png"); 
+
+.nav-lable{
+	cursor:pointer;
+	font-size: 1.25rem;
+	width:4o px;
+	display: inline-block;
 }
 
-
+ .nav-check:checked ~ .nav {
+ 	display: block
+	background-image:url("../images/pattern.png"); 
+}
+.nav-check:checked ~ .nav-lable{
+background-color: #ccc;
+}
+.nav-lable img{
+	display: block;
+	width:100%;
+}
 body{
 	font-family: 'Josefin Slab', serif; 
 }
