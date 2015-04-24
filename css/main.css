@@ -15,20 +15,25 @@ body{
 }
 header{
 	background-color: #AE2525;
+	font-size: 20px;
 	repeat:no no-repeat;
 	padding:1em 0;
+	margin: 0;
 }
 .masthead{
-	background-image:url("../images/logo.png"),url("../images/logo.svg"),url("../images/masthead.png");
-	background-repeat: no-repeat,no-repeat, repeat;
+	background-image:url("../images/logo.png"),url("../images/pattern.png");
+	background-repeat: no-repeat,repeat, repeat;
 	background-size: 75px auto,75px auto,200px auto;
-	padding: 0.25em;
+	padding: 1em;
 	background-position: left top, right top, left top;
+	margin: 0;
 }
+
 body{
 
 }
-/*header{
+
+header {
 background-image: url("../images/logo.png"), url("../images/logo.png");
 background-position: left 15px, auto;
 background-repeat: no-repeat;
@@ -37,25 +42,28 @@ padding: 1em 0 40px;
 display: block;
 position: relative;
 }
-.nav a{
+
+/*.nav a {
 	display: block;
 	padding: 0.5em 0.7;
 	text-decoration: none;
 	color: #fff;
 }
+
 .nav a:hover {
 	background-color: #333;
 	color: #fff;
 }
+
 .nav{
 	margin: 0;
-	
-	list-style-type:none;
+	list-style-type: none;
 	background-image: url("../images/pattern.png");
-	display:none;
+	display: none;
 	position: absolute;
-	width:15 em;
+	width: 15em;
 }
+
 .nav li{
 	display: inline-block;
 }
@@ -95,16 +103,16 @@ nav-close{
 }
 nav-checked:checked ~ .nav-lable .nav-close{
 	display:block;
-}
+}*/
 
-ul{
+ul {
 	
 	font-size: 27px;
 	color:#183E4E;
 	text-align: center;
 	font-family:'Josefin Sans', sans-serif;
 
-}*/
+}
 
 h1{
 	margin: 0;
@@ -113,40 +121,47 @@ h1{
 	font-weight: bold;
 	font-size: 42px;
 	text-align: center;
-	position: relative;
 	text-shadow: 4px 4px 4px black;
 	bottom: 5%;
 	position: absolute;
+
 	
 }
-.nav{
+
+/*.nav {
 	margin: 0;
-	list-style-type:none; 
-	text-align: center;
-	padding:0;
+	list-style-type: none; 
+	padding: 0;
 
 }
-.nav li{
-	display:inline-block;
+
+.nav li {
+	display: inline-block;
 }
-.nav a{
+
+.nav a {
 	color: #FFCC99;
 	display: inline-block;
-	padding:1em 2em 1em 2em;
-	background-color: #183E4E;
+	padding:0.75em 1em 0.75em 1em;
+	background-color: black;
 	border-radius: 3px;
 	text-decoration: none;
+	position: left;
 }
-.nav a:hover{
-	background-color: black;
-}
-.pattern{
+
+.nav a:hover {
+	background-color: #183E4E;
+}*/
+
+.pattern {
 	width: 100%;
 }
-img{
+
+img {
 	width: 100%;
 }
-.kabob{
+
+.kabob {
 	
 	background-image: url("../images/kabob.jpg");
 	text-shadow: 4px 4px 4px #183E4E;
@@ -164,17 +179,19 @@ h2{
 	font-size: 42px;
 	text-align: center;
 	color: white;
-	text-shadow: 4px 4px 4px #183E4E;
 	margin: 0;
 	position: relative;
 }
 .menu h2{
-	
+	color:#183E4E;
 	padding: 1em;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 42px;
+	text-align: center;
 }
 
-p{
-
+.silkroad{
+	position: relative;
 }
 .reviews, .silkroad {
 	color: #FFCC99;
@@ -200,7 +217,12 @@ li{
 	font-family:'Josefin Sans', sans-serif;
 }
 
-
+.menu ul{
+	color:#183E4E;
+	text-align: center;
+	font-size: 24px;
+	padding:2em 1em 0 1em;
+}
 
 
 .events{
