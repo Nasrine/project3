@@ -1,4 +1,4 @@
-*, *::before, *::after{ 
+ *::before, *::after{ 
 	box-sizing: inherit;
 }
 
@@ -14,11 +14,13 @@ body{
 	display: block;
 }
 header{
-	background-color: #AE2525;
+	background-color: #292113;
 	font-size: 20px;
 	repeat:no no-repeat;
 	padding:1em 0;
 	margin: 0;
+	position: relative;
+	text-align: center;
 }
 /*.masthead{
 	background-image:url("../images/logo.png"),url("../images/pattern.png");
@@ -31,13 +33,14 @@ header{
 */
 
 header {
-background-image: url("../images/logo.png"), url("../images/logo.png");
+background-image: url("../images/logo.png");
 background-position: left 15px, auto;
 background-repeat: no-repeat;
 background-size: 80px auto;
 padding: 1em 0 40px;
 display: block;
 position: relative;
+text-align: center;
 }
 
 .nav a {
@@ -58,6 +61,7 @@ position: relative;
 	background-image: url("../images/pattern.png");
 	display: none;
 	position: absolute;
+	top:100%;
 	width: 15em;
 }
 
@@ -65,26 +69,27 @@ position: relative;
 	display: inline-block;
 }
 
-.nav-check{
+.nav-check {
 	position: absolute;
 	top: -3em;
 }
 
-.nav-lable{
+.nav-label{
 	cursor:pointer;
 	font-size: 1.25rem;
-	width:4o px;
+	width:40px;
 	display: inline-block;
 	position: absolute;
 	right: 0;
 	bottom:0;
 }
 
+
  .nav-check:checked ~ .nav {
- 	display: block
+ 	display: block;
 	background-image:url("../images/pattern.png"); 
 }
-.nav-check:checked ~ .nav-lable{
+.nav-check:checked ~ .nav-label {
 background-color: #ccc;
 }
 .nav-open,
@@ -95,10 +100,10 @@ nav-close{
 .nav-close{
 	display: none; 
 }
-.nav-checked:checked ~ .nav-lable .nav-open{
+.nav-checked:checked ~ .nav-label .nav-open{
 	display:none;
 }
-nav-checked:checked ~ .nav-lable .nav-close{
+nav-checked:checked ~ .nav-label .nav-close{
 	display:block;
 }*/
 
@@ -181,15 +186,21 @@ h2{
 }
 .menu h2{
 	color:#183E4E;
-	padding: 1em;
+	
 	font-family:'Josefin Sans', sans-serif;
 	font-size: 42px;
 	text-align: center;
+	margin:0;
+	position: relative;
+	
 }
 
 .silkroad{
 	position: relative;
+	margin: 0;
+	bottom: 0 auto;
 }
+
 .reviews, .silkroad {
 	color: #FFCC99;
 	background-color: #AE2525;
