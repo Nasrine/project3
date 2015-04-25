@@ -1,4 +1,4 @@
- *::before, *::after{ 
+  *::before, *::after{ 
 	box-sizing: inherit;
 }
 
@@ -13,34 +13,19 @@ body{
 	margin:0;
 	display: block;
 }
-header{
-	background-color: #292113;
-	font-size: 20px;
-	repeat:no no-repeat;
-	padding:1em 0;
-	margin: 0;
-	position: relative;
-	text-align: center;
-}
-/*.masthead{
-	background-image:url("../images/logo.png"),url("../images/pattern.png");
-	background-repeat: no-repeat,repeat, repeat;
-	background-size: 75px auto,75px auto,200px auto;
-	padding: 1em;
-	background-position: left top, right top, left top;
-	margin: 0;
-}
-*/
 
 header {
-background-image: url("../images/logo.png");
-background-position: left 15px, auto;
-background-repeat: no-repeat;
-background-size: 80px auto;
-padding: 1em 0 40px;
-display: block;
-position: relative;
-text-align: center;
+	background-image: url("../images/logo.png");
+	background-position: left 15px, auto;
+	background-repeat: no-repeat;
+	background-size: 80px auto;
+	background-color: #292113;
+	font-size: 20px;
+	padding: 1em 0 40px;
+	display: block;
+	position: relative;
+	text-align: center;
+	margin: 0;
 }
 
 .nav a {
@@ -90,7 +75,7 @@ text-align: center;
 	background-image:url("../images/pattern.png"); 
 }
 .nav-check:checked ~ .nav-label {
-background-color: #ccc;
+	background-color: #ccc;
 }
 .nav-open,
 nav-close{
@@ -103,6 +88,7 @@ nav-close{
 .nav-checked:checked ~ .nav-label .nav-open{
 	display:none;
 }
+
 nav-checked:checked ~ .nav-label .nav-close{
 	display:block;
 }
