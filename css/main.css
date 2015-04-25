@@ -105,7 +105,7 @@ nav-close{
 }
 nav-checked:checked ~ .nav-label .nav-close{
 	display:block;
-}*/
+}
 
 ul {
 	margin:0;
@@ -165,10 +165,9 @@ img {
 
 .kabob {
 	
-	background-image: url("../images/kabob.jpg");
+	background-image: url("../images/kabob.jpg"), linear-gradient(to bottom, transparent, rgba(0,2,0,0.05));
 	text-shadow: 4px 4px 4px #183E4E;
-  	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.05));
-	repeat:no-repeat;
+	background-repeat: no-repeat;
 	margin: 0em;
 	position: relative;
 
@@ -186,19 +185,35 @@ h2{
 }
 .menu h2{
 	color:#183E4E;
-	
 	font-family:'Josefin Sans', sans-serif;
 	font-size: 42px;
 	text-align: center;
-	margin:0;
+	margin:0.5em;
 	position: relative;
 	
 }
+h3{
+	color:#AE2525;
+	
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 24px;
+	text-align: center;
+	margin:0;
+	
 
+}
 .silkroad{
 	position: relative;
 	margin: 0;
 	bottom: 0 auto;
+}
+p{
+	color: #FFCC99;
+	font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: left;
+	position: relative;
+
 }
 
 .reviews, .silkroad {
@@ -214,18 +229,18 @@ h2{
 	width: 100%;
 }
 
-menu ol li{
+menu li ul {
 	width:80%;
 
 }
 
 
-li{
+ul{
 	color:#183E4E;
 	font-family:'Josefin Sans', sans-serif;
 }
 
-.menu ul{
+.menu li{
 	color:#183E4E;
 	text-align: center;
 	font-size: 24px;
@@ -243,18 +258,20 @@ li{
 }
 .buffet.jpg{
 	padding: 1em;
-}
-dt{
-	color:#FFCC99;
+	margin: 0;
 }
 
-dl dt img{
+.dancing.jpg{
+	padding:1em;
+	margin: 0;
+}
+ul li img{
 	width:50%;
 	float:right;
 	overflow:hidden;
 }
 
-dl dt{
+li{
 	overflow: hidden;
 }
 
